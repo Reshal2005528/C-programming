@@ -4,15 +4,19 @@ void main()
 int A[10][10],B[10][10],C[10][10];
 int i,j,Arow,Brow,Crow,Acol,Bcol,Ccol;
 
-printf("Enter the rows ad columns of matrix A\n ");
-scanf("%d%d",&Arow,&Acol);
+/*printf("Enter the rows ad columns of matrix A\n ");
+scanf("%d%d",&Arow,&Acol);*/
+    Arow=3;
+    Acol=3;
 printf("Matrix A:\n");
 for(i=0;i<Arow;i++)
 for(j=0;j<Acol;j++)
 scanf("%d",&A[i][j]);
 
-printf("Enter the rows ad columns of matrix B \n");
-scanf("%d%d",&Brow,&Bcol);
+/*printf("Enter the rows ad columns of matrix B \n");
+scanf("%d%d",&Brow,&Bcol);*/
+    Brow=3;
+    Bcol=3;
 printf("Matrix B:\n");
 for(i=0;i<Brow;i++)
 for(j=0;j<Bcol;j++)
