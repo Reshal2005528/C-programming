@@ -3,7 +3,8 @@ void main()
 {
 int num,i,count;
 printf("enter the number:\t");
-scanf("%d",&num);
+//scanf("%d",&num);
+    num=13;
 for(i=2;i<num/2;i++)
 {
 if(num%i==0){
