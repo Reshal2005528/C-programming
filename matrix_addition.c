@@ -10,19 +10,33 @@ scanf("%d%d",&Arow,&Acol);*/
     Acol=3;
 printf("Matrix A:\n");
 for(i=0;i<Arow;i++)
+{
 for(j=0;j<Acol;j++)
-scanf("%d",&A[i][j]);
-
-/*printf("Enter the rows ad columns of matrix B \n");
+{
+//scanf("%d",&A[i][j]);
+    A[i][j]=rand()%10;
+    printf("%d\t",A[i][j]);
+}
+    printf("\n");
+}
+    
+    /*printf("Enter the rows ad columns of matrix B \n");
 scanf("%d%d",&Brow,&Bcol);*/
     Brow=3;
     Bcol=3;
 printf("Matrix B:\n");
 for(i=0;i<Brow;i++)
+{
 for(j=0;j<Bcol;j++)
-scanf("%d",&B[i][j]);
-
-if(Arow==Brow && Acol==Bcol)
+{
+//scanf("%d",&B[i][j]);
+B[i][j]=rand()%10;
+    printf("%d\t",B[i][j]);
+}
+    printf("\n);
+}
+    
+    if(Arow==Brow && Acol==Bcol)
 {
 printf("Matrix C :\n");
 for(i=0;i<Arow;i++)
