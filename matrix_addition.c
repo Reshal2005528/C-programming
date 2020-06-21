@@ -33,7 +33,7 @@ for(j=0;j<Bcol;j++)
 B[i][j]=rand()%10;
     printf("%d\t",B[i][j]);
 }
-    printf("\n);
+    printf("\n");
 }
     
     if(Arow==Brow && Acol==Bcol)
