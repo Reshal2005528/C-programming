@@ -1,8 +1,8 @@
 #include<stdio.h>
 void main()
 {
-int A[10][10],B[10][10],C[10][10];
-int i,j,Arow,Brow,Crow,Acol,Bcol,Ccol;
+int A[10][10],B[10][10];
+int i,j,Arow,Brow,Acol,Bcol;
 
 printf("Enter the rows ad columns of matrix A\n ");
 scanf("%d%d",&Arow,&Acol);
@@ -32,7 +32,7 @@ B[i][j]=rand()%10;
 }
     printf("\n");
 }
-    
+    int C[10][10];
     if(Arow==Brow && Acol==Bcol)
 {
 printf("Matrix C :\n");
