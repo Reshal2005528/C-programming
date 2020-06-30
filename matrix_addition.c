@@ -32,7 +32,7 @@ B[i][j]=rand()%10;
 }
     printf("\n");
 }
-    int C[10][10];
+    int C[][];
     if(Arow==Brow && Acol==Bcol)
 {
 printf("Matrix C :\n");
